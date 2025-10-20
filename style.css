@@ -17,7 +17,7 @@
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .matrix-info {
     text-align: center;
   }
@@ -30,23 +30,23 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row {
   display: flex;
 }
 .task-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 .task-item,
 .section-heading {
-  list-style:none;
+  list-style: none;
 }
 .task-input,
 .task-checkbox,
 .btn {
-  outline:none;
+  outline: none;
 }
 .btn {
   background: none;
@@ -120,7 +120,7 @@ input#new-task {
   width: 226px;
 }
 .task-item > .task-input {
-  width: 226px
+  width: 226px;
 }
 .btn.delete .delete-icon {
   height: 2em;
@@ -139,14 +139,14 @@ input#new-task {
 
 /* Edit Task */
 .task-list .task-item .task-input {
-  display:none
+  display: none;
 }
 
 .task-list .task-item.edit-mode .task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px;
 }
 
 .task-list .task-item.edit-mode .task-label {
-  display:none;
+  display: none;
 }
